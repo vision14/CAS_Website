@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title_content %}
+    {{ Title_String | safe }}
+{% endblock %}
+{% block content %}
+    {{ Total_Cases | safe }}
+    {{ Total_Deaths | safe }}
+{% endblock %}

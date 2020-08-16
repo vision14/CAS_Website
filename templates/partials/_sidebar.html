@@ -1,0 +1,94 @@
+<ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+  <!-- Sidebar - Brand -->
+  <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{% url 'home' %}">
+    <div class="sidebar-brand-icon">
+      <i class="fas fa-viruses"></i>
+    </div>
+    <div class="sidebar-brand-text mx-3">CAS</div>
+  </a>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider my-0">
+
+  <!-- Nav Item - Dashboard -->
+  <li class="nav-item active">
+    <a class="nav-link" href="{% url 'home' %}">
+      <i class="fas fa-fw fa-tachometer-alt"></i>
+      <span>Dashboard</span></a>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider">
+
+  <!-- Heading -->
+  <div class="sidebar-heading">
+    Addons
+  </div>
+
+  <!-- Nav Item - Pages Collapse Menu -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+      <i class="fas fa-fw fa-globe"></i>
+      <span>Countries</span>
+    </a>
+    <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <a class="collapse-item" href="{% url 'argentina' %}">Argentina</a>
+        <a class="collapse-item" href="{% url 'australia' %}">Australia</a>
+        <a class="collapse-item" href="{% url 'brazil' %}">Brazil</a>
+        <a class="collapse-item" href="{% url 'canada' %}">Canada</a>
+        <a class="collapse-item" href="{% url 'china' %}">China</a>
+        <a class="collapse-item" href="{% url 'germany' %}">Germany</a>
+        <a class="collapse-item" href="{% url 'india' %}">India</a>
+        <a class="collapse-item" href="{% url 'iran' %}">Iran</a>
+        <a class="collapse-item" href="{% url 'italy' %}">Italy</a>
+        <a class="collapse-item" href="{% url 'mexico' %}">Mexico</a>
+        <a class="collapse-item" href="{% url 'philippines' %}">Philippines</a>
+        <a class="collapse-item" href="{% url 'russia' %}">Russia</a>
+        <a class="collapse-item" href="{% url 'south_africa' %}">South Africa</a>
+        <a class="collapse-item" href="{% url 'spain' %}">Spain</a>
+        <a class="collapse-item" href="{% url 'uk' %}">United Kingdom</a>
+        <a class="collapse-item" href="{% url 'usa' %}">USA</a>
+      </div>
+    </div>
+  </li>
+
+  <!-- Nav Item - Tables -->
+  <li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages1" aria-expanded="true" aria-controls="collapsePages1">
+      <i class="fas fa-fw fa-table"></i>
+      <span>Tables</span>
+    </a>
+    <div id="collapsePages1" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+      <div class="bg-white py-2 collapse-inner rounded">
+        <a class="collapse-item" href="{% url 'world_table' %}">World</a>
+        <a class="collapse-item" href="{% url 'argentina_table' %}">Argentina</a>
+        <a class="collapse-item" href="{% url 'australia_table' %}">Australia</a>
+        <a class="collapse-item" href="{% url 'brazil_table' %}">Brazil</a>
+        <a class="collapse-item" href="{% url 'canada_table' %}">Canada</a>
+        <a class="collapse-item" href="{% url 'china_table' %}">China</a>
+        <a class="collapse-item" href="{% url 'germany_table' %}">Germany</a>
+        <a class="collapse-item" href="{% url 'india_table' %}">India</a>
+        <a class="collapse-item" href="{% url 'iran_table' %}">Iran</a>
+        <a class="collapse-item" href="{% url 'italy_table' %}">Italy</a>
+        <a class="collapse-item" href="{% url 'mexico_table' %}">Mexico</a>
+        <a class="collapse-item" href="{% url 'philippines_table' %}">Philippines</a>
+        <a class="collapse-item" href="{% url 'russia_table' %}">Russia</a>
+        <a class="collapse-item" href="{% url 'south_africa_table' %}">South Africa</a>
+        <a class="collapse-item" href="{% url 'spain_table' %}">Spain</a>
+        <a class="collapse-item" href="{% url 'uk_table' %}">United Kingdom</a>
+        <a class="collapse-item" href="{% url 'usa_table' %}">USA</a>
+      </div>
+    </div>
+  </li>
+
+  <!-- Divider -->
+  <hr class="sidebar-divider d-none d-md-block">
+
+  <!-- Sidebar Toggler (Sidebar) -->
+  <div class="text-center d-none d-md-inline">
+    <button class="rounded-circle border-0" id="sidebarToggle"></button>
+  </div>
+
+</ul>
